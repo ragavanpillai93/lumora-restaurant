@@ -1,5 +1,6 @@
 import React from 'react';
 import { Award, Wine, Flame, Clock } from 'lucide-react';
+import cellarDiningImg from '@/src/assets/images/cellar_private_dining_1790929794337.jpg';
 
 export const About: React.FC = () => {
   return (
@@ -89,7 +90,7 @@ export const About: React.FC = () => {
               {/* Main Image */}
               <div className="relative rounded-sm overflow-hidden border border-white/15 shadow-2xl group">
                 <img
-                  src="/src/assets/images/cellar_private_dining_1790929794337.jpg"
+                  src={cellarDiningImg}
                   alt="LUMORA private wine cellar dining room"
                   className="w-full h-[480px] md:h-[560px] object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                   referrerPolicy="no-referrer"

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, ArrowRight, Sparkles } from 'lucide-react';
+import heroDiningImg from '@/src/assets/images/hero_cinematic_dining_1790929757006.jpg';
 
 interface HeroProps {
   onOpenReservation: () => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
       {/* Background Image with Cinematic Depth */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_cinematic_dining_1790929757006.jpg"
+          src={heroDiningImg}
           alt="LUMORA luxury nocturnal dining atmosphere"
           className="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite] transition-transform duration-1000 will-change-transform"
           referrerPolicy="no-referrer"

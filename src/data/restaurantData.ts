@@ -1,3 +1,13 @@
+import wagyuImg from '@/src/assets/images/wagyu_signature_plate_1790929769718.jpg';
+import trufflePastaImg from '@/src/assets/images/dish_truffle_pasta_1790930584113.jpg';
+import burrataImg from '@/src/assets/images/dish_burrata_heirloom_1790930603560.jpg';
+import chocolateTorteImg from '@/src/assets/images/dish_chocolate_torte_1790930614881.jpg';
+import chefSpecialImg from '@/src/assets/images/chef_special_dish_1790929783778.jpg';
+import heroDiningImg from '@/src/assets/images/hero_cinematic_dining_1790929757006.jpg';
+import chefPlatingImg from '@/src/assets/images/gallery_chef_plating_1790930630606.jpg';
+import foodPrepFlameImg from '@/src/assets/images/gallery_food_prep_flame_1790930644991.jpg';
+import cellarDiningImg from '@/src/assets/images/cellar_private_dining_1790929794337.jpg';
+
 export interface Dish {
   id: string;
   name: string;
@@ -49,7 +59,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     dietary: ['V', 'Chef Signature'],
     pairing: 'Barolo Monfortino Riserva Giacomo Conterno 2013',
     origin: 'Piedmont & Norcia, Italy',
-    image: '/src/assets/images/dish_truffle_pasta_1790930584113.jpg'
+    image: trufflePastaImg
   },
   {
     id: 'wagyu-steak',
@@ -60,7 +70,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     dietary: ['GF', 'Chef Signature'],
     pairing: 'Château Margaux Premier Grand Cru 2012',
     origin: 'Miyazaki Prefecture, Japan',
-    image: '/src/assets/images/wagyu_signature_plate_1790929769718.jpg'
+    image: wagyuImg
   },
   {
     id: 'burrata-heirloom',
@@ -71,7 +81,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     dietary: ['GF', 'V'],
     pairing: 'Vermentino di Gallura Superiore, Capichera 2021',
     origin: 'Puglia & Modena, Italy',
-    image: '/src/assets/images/dish_burrata_heirloom_1790930603560.jpg'
+    image: burrataImg
   },
   {
     id: 'dark-chocolate-torte',
@@ -82,7 +92,7 @@ export const SIGNATURE_DISHES: Dish[] = [
     dietary: ['V', 'Chef Signature'],
     pairing: 'Château d’Yquem Sauternes 2009',
     origin: 'Tain-l’Hermitage & Madagascar',
-    image: '/src/assets/images/dish_chocolate_torte_1790930614881.jpg'
+    image: chocolateTorteImg
   }
 ];
 
@@ -96,7 +106,7 @@ export const CHEF_SPECIAL = {
   chefName: 'Matteo Vane',
   chefRole: 'Executive Chef & Founder',
   origin: 'North Sea & Brittany Coast',
-  image: '/src/assets/images/chef_special_dish_1790929783778.jpg'
+  image: chefSpecialImg
 };
 
 export const FULL_MENU_ITEMS: Dish[] = [
@@ -350,7 +360,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'interior',
     categoryLabel: 'Restaurant Interior',
     description: 'Sculpted Italian leather banquettes beneath smoky blown glass chandeliers and dark brushed bronze acoustics.',
-    image: '/src/assets/images/hero_cinematic_dining_1790929757006.jpg'
+    image: heroDiningImg
   },
   {
     id: 'gal-chef',
@@ -358,7 +368,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'chef',
     categoryLabel: 'Executive Chef',
     description: 'Executive Chef Matteo Vane conducting final garnish adjustments with micro herbs and culinary gold leaf.',
-    image: '/src/assets/images/gallery_chef_plating_1790930630606.jpg'
+    image: chefPlatingImg
   },
   {
     id: 'gal-prep',
@@ -366,7 +376,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'prep',
     categoryLabel: 'Food Preparation',
     description: 'One-thousand-degree Japanese binchotan charcoal coals searing wild Scottish langoustines to locked-in perfection.',
-    image: '/src/assets/images/gallery_food_prep_flame_1790930644991.jpg'
+    image: foodPrepFlameImg
   },
   {
     id: 'gal-table',
@@ -374,7 +384,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     category: 'table',
     categoryLabel: 'Dining Table',
     description: 'A hand-hewn dark walnut banquet table set with Austrian Riedel crystal stems, warm candlelight, and silver service.',
-    image: '/src/assets/images/cellar_private_dining_1790929794337.jpg'
+    image: cellarDiningImg
   },
   {
     id: 'gal-ambience',
@@ -402,7 +412,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     subtitle: 'Sensory Grandeur',
     description: 'Low-slung Italian leather booths set beneath suspended brass constellations and hand-blown smoky glass. Designed for intimate acoustic warmth and cinematic nocturnal energy.',
     capacity: 'Up to 34 guests · A La Carte & 7-Course Tasting',
-    image: '/src/assets/images/hero_cinematic_dining_1790929757006.jpg'
+    image: heroDiningImg
   },
   {
     id: 'wine-vault',
@@ -410,7 +420,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     subtitle: 'Private Reserve Dining',
     description: 'Carved behind 200-year-old stone arches, surrounded by 1,400 rare vintages. Features a hand-hewn walnut banquet table and customized wine pairings with the Head Sommelier.',
     capacity: 'Private bookings · 8 to 14 guests',
-    image: '/src/assets/images/cellar_private_dining_1790929794337.jpg'
+    image: cellarDiningImg
   },
   {
     id: 'hearth-counter',
@@ -418,7 +428,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     subtitle: 'Culinary Front Row',
     description: 'Sit millimeters from the binchotan embers and live charcoal smoke. Watch Chef Matteo Vane and his brigade curate every plate in real time with interactive courses.',
     capacity: '8 seats only · 10-Course Avant-Garde Tasting',
-    image: '/src/assets/images/gallery_food_prep_flame_1790930644991.jpg'
+    image: foodPrepFlameImg
   },
   {
     id: 'cocktail-atelier',

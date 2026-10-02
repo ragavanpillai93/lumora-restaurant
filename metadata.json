@@ -1,0 +1,7 @@
+{
+  "name": "LUMORA - Modern Luxury Dining",
+  "description": "A luxury modern restaurant website and portfolio demo featuring cinematic culinary experiences, seasonal menus, and seamless table reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
